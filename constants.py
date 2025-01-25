@@ -1,0 +1,8 @@
+points = "point.png"
+multipoints = "multipoint.png"
+backgroundImage = "logo.png"
+defaultView = "logo1.png"
+infoText = "ETHSLT  is a Window application which converts\nEthiopian Sign Language gestures into Amharic text\n\nThe system is built using Long Short-Term Memory (LSTM)\nneural networks implemented in TensorFlow and Keras. \n"
+generate = "generate.png"
+startCamera = "StartCamera.png"
+stopCamera = "StopCamera.png"
