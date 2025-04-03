@@ -167,8 +167,9 @@ def _parse_version(version):
     return _VersionInfoType(major, minor, micro, releaselevel, serial)
 
 
-@enum._simple_enum(enum.StrEnum)
-class EventType:
+# @enum._simple_enum(enum.StrEnum)
+from enum import Enum
+class EventType(Enum):
     KeyPress = '2'
     Key = KeyPress
     KeyRelease = '3'
