@@ -166,9 +166,9 @@ def _parse_version(version):
         releaselevel = {'a': 'alpha', 'b': 'beta'}[releaselevel]
     return _VersionInfoType(major, minor, micro, releaselevel, serial)
 
-
-@enum._simple_enum(enum.StrEnum)
-class EventType:
+from enum import Enum
+# @enum._simple_enum(enum.StrEnum)
+class EventType(Enum):
     KeyPress = '2'
     Key = KeyPress
     KeyRelease = '3'
